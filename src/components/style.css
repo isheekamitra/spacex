@@ -1,0 +1,45 @@
+.box1{
+    background-color: blueviolet;
+
+  background-image: url("https://image.freepik.com/free-photo/milky-way_1401-347.jpg");
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.input{
+    min-width: 300px;
+    border: none;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(7, 3, 0);
+    padding: 5px;
+    color: cornsilk;
+    /*background-image: url("https://image.freepik.com/free-vector/color-seamless-space-pattern_102902-2360.jpg");*/
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+    min-width: 350px;
+    background-color: black;
+    background: url("https://image.freepik.com/free-vector/monochrome-watercolor-galaxy-background_23-2148830311.jpg");
+    color: rgb(201, 219, 197);
+    
+}
+
+.write{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(19, 22, 1)
+
+
+    
+    
+}
