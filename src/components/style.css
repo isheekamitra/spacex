@@ -1,7 +1,9 @@
+
 .box1{
     background-color: blueviolet;
 
-  background-image: url("https://image.freepik.com/free-photo/milky-way_1401-347.jpg");
+  background-image: url("https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80") ;
+  background-size: cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -9,16 +11,26 @@
     align-items: center;
   
 }
+
 .input{
+    display: flex;
     min-width: 300px;
     border: none;
     margin: 5px;
+    margin-top: 10px;
     text-align: center;
     background-color: rgb(7, 3, 0);
     padding: 5px;
-    color: cornsilk;
-    /*background-image: url("https://image.freepik.com/free-vector/color-seamless-space-pattern_102902-2360.jpg");*/
+    font-weight: 700;
+    color: rgb(27, 22, 2);
+    background-image: url("https://image.freepik.com/free-vector/earth-planets-scenes_1308-42827.jpg");
 }
+::placeholder{
+    color: rgb(3, 12, 27);
+    font-weight:600;
+}
+
+
 .box{
     display: flex;
     justify-content: center;
@@ -27,8 +39,16 @@
     min-height: 300px;
     min-width: 350px;
     background-color: black;
-    background: url("https://image.freepik.com/free-vector/monochrome-watercolor-galaxy-background_23-2148830311.jpg");
+    background: url("https://image.freepik.com/free-vector/astroid-falling-earth-with-blank-sky_1308-54014.jpg");
     color: rgb(201, 219, 197);
+
+    
+}
+.result{
+    background-color: chartreuse;
+    margin: 29px;
+    padding: 10px;
+    background-image: url("https://image.freepik.com/free-photo/3d-abstract-wireframe-landscape-against-space-sky_1048-11694.jpg");
     
 }
 
@@ -37,9 +57,39 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    color:rgb(19, 22, 1)
+    color:rgb(239, 245, 247);
+     font-weight:bold;
 
 
     
     
+}
+.typo{
+    background-color: rgb(4, 29, 71);
+    min-width: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(7, 165, 165);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.error{
+    color: rgb(72, 197, 219);
+    text-align: center;
+    margin-left: 0;
+}
+
+@media only screen and (max-width: 650px) {
+   .box{
+    
+       max-width: 40x;
+      
+   }
+   .input{
+       min-width: 60px;
+       
+
+   }
+   
+
+  
 }
