@@ -2,16 +2,25 @@
 .box1{
     background-color: blueviolet;
 
-  background-image: url("https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80") ;
+  /* background-image: url("https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80") ; */
   background-size: cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+   background-color: black;
   
 }
-
+.option{
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.para{
+    margin-bottom: 0;
+    color: black;
+    font-weight: 500;
+}
 .input{
     display: flex;
     min-width: 300px;
@@ -23,7 +32,12 @@
     padding: 5px;
     font-weight: 700;
     color: rgb(27, 22, 2);
+
     background-image: url("https://image.freepik.com/free-vector/earth-planets-scenes_1308-42827.jpg");
+    background: #1c92d2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 ::placeholder{
     color: rgb(3, 12, 27);
@@ -41,15 +55,18 @@
     background-color: black;
     background: url("https://image.freepik.com/free-vector/astroid-falling-earth-with-blank-sky_1308-54014.jpg");
     color: rgb(201, 219, 197);
-
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     
 }
 .result{
     background-color: chartreuse;
     margin: 29px;
     padding: 10px;
-    background-image: url("https://image.freepik.com/free-photo/3d-abstract-wireframe-landscape-against-space-sky_1048-11694.jpg");
-    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxYc0Nj7RwKbabetCse6M4z-rkBCD792VCoFQa16lvj3gfkscM7VUQusKzT0iGUQ4Bb_M&usqp=CAU");
+  
 }
 
 .write{
@@ -65,17 +82,24 @@
     
 }
 .typo{
-    background-color: rgb(4, 29, 71);
+    /* background-color: rgb(0, 4, 10); */
     min-width: 100px;
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-bottom: 10px;
     text-align: center;
-    color: rgb(7, 165, 165);
+    color: rgb(13, 14, 14);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 .error{
     color: rgb(72, 197, 219);
     text-align: center;
     margin-left: 0;
+}
+.header{
+    /* background-color: rgb(45, 238, 238); */
+    color: rgb(72, 197, 219);
 }
 
 @media only screen and (max-width: 650px) {

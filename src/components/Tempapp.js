@@ -44,25 +44,42 @@ const Tempapp =()=>{
     return(
       <>
         
-
-     <div className="box1">
    
+     <div className="box1">
+     <h3 className="header">Browse Launches by SpaceX</h3>
        <div className="box">
  
        <input className="input" type="search" placeholder="Enter launch year"
        onChange={(event)=>{
           setsearch(event.target.value)
        }}/>
-       <input className="input" type="search" placeholder="Enter launch state true|false"
+       {/* <input className="input" type="search" placeholder="Enter launch state true|false"
        onChange={(event)=>{
           setlaunch(event.target.value)
        }} />
- 
-        <input className="input " type="search" placeholder="Enter land state true|false"
+  */}
+  <p className="para">Select launching state</p>
+  <select className="input" onChange={(event)=>{
+          setlaunch(event.target.value)
+       }}>
+  <option className="option" value="true"  >True</option>
+  <option className="option" value="false" >False</option>
+  
+</select>
+        {/* <input className="input " type="search" placeholder="Enter land state true|false"
        onChange={(event)=>{
           setland(event.target.value)
        }} />
+   */}
+   <p className="para">Select landing state</p>
+   <select className="input"  onChange={(event)=>{
+          setland(event.target.value)
+       }}>
+      
+  <option className="option" value="true" >True</option>
+  <option className="option" value="false"  >False</option>
   
+</select>
 
   <div className="result">
 <div className="write">
