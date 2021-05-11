@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+#Approach
+
+I created a component called Tempapp.js and fetched the Api in it. i created a flight component to map over the Api . Several different api keys can be fethched. i published the flight number and the mission name and mission id.
+
+
+#Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
